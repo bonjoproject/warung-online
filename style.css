@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    /* border: 1px solid #dfe6e9 ; */
+    border-radius: 3px;
+    margin-bottom: 1px;
+    max-width: 1170px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.nav{
+    background-image: linear-gradient( to left, #34495e, #2c3e50);
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    box-shadow: 0 10px 20px 0 #7f8c8d;
+    border-radius: 0 0 5px 25px;
+}
+
+.logo{
+    
+    /* background-color: blue; */
+    margin-left: 20px;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 45px;
+    opacity: 0.8;
+    border-radius: 5px 5px;
+    /* box-shadow: 5px 5px #dfe6e9; */
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.nav-wrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu a{
+    display: block;
+    line-height: 45px;
+    background-color: #95a5a6;
+    padding: 0 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 0 ;
+    border: 1px outset #2c3e50;
+    margin-right: 8px;
+    box-shadow: 5px 5px #bdc3c7;
+}
+
+.menu a:hover{
+    background-color: #bdc3c7;
+    transition: 300ms;
+}
+
+.menu a:active{
+    position: relative;;
+    top: 5px;
+    box-shadow: none;
+    transition: 100ms;
+}
+
+.menu-img{
+    background-image: url(img/background-banner.jpg) ;
+    background-size: cover;
+    border-radius: 10px 50px;
+    opacity: 0.9;
+    box-shadow: 0 10px 20px 0 #7f8c8d;
+    padding-top: 50px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.content p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+
+.judul{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.content-kiri{
+    flex-grow: 2.5;
+    border-right: 1px solid #e74c3c ;
+    box-sizing: border-box;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: auto;
+    height: 900px;
+    
+}
+
+.menu-makanan{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+.menu-makanan div{
+    height: 300px;
+    width: 30%;
+    flex-grow: 2;
+    margin: 20px;
+    border: 1px solid #dfe6e9 ;
+    border-radius: 25px 0;
+    box-shadow: 10px 8px #dfe6e9;
+    background-color: rgba(52, 73, 94, 0.8);
+}
+
+.menu-spesial div{
+    height: 300px;
+    flex-grow: 1;
+    margin: 20px;
+    border: 1px solid #dfe6e9 ;
+    border-radius: 25px 0;
+    box-shadow: 10px 8px #dfe6e9;
+    background-color: rgba(52, 73, 94, 0.8);
+}
+
+.content-kanan{
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 900px;
+    overflow: auto;
+    scrollbar-3dlight-color: #e67e22;
+}
+
+
+
+.content-wrapper{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 0;
+}
+
+ 
+.cards{
+    padding: 50px 0 30px 0;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    border-radius: 20px 0 0 0;
+    padding: 15px;
+    width: 30%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, #e67e22, #d35400);
+    height: 200px;
+    margin-bottom: 10px;
+}
+.card div{
+    flex-grow: 1;
+}
+
+.profile{
+    margin-top: 10px;
+    width: 60px;
+    opacity: 0.8;
+}
+
+.isi-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.footer-wrapper .container{
+    background-image: linear-gradient( to left, #34495e, #2c3e50);
+    border-radius: 20px 20px 0  0 ;
+    box-shadow: 10px 10px 10px 10px  #7f8c8d;
+    height: 200px;
+}
